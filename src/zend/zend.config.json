@@ -1,0 +1,12 @@
+{
+  "name": "Zend Framework",
+  "description": "Package for Zend Framework application.",
+  "author": {
+    "name": "Skyflow",
+    "email": "contact@skyflow.io",
+    "site": "https:\/\/skyflow.io",
+    "github": "https:\/\/github.com\/skyflow-io"
+  },
+  "slug": "zend",
+  "logo": "zend.png"
+}

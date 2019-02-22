@@ -1,0 +1,8 @@
+    {{ container_name }}:
+        container_name: {{ container_name }}
+        image: wordpress:latest
+        restart: 'on-failure'
+        ports:
+            - {{ port }}:80
+        depends_on:
+            - {{ depends:mariadb }}
