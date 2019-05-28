@@ -1,3 +1,11 @@
 /.idea/
 /deploy_rsa
 /deploy_rsa.pub
+/docker/
+/skyflow.json
+/composer.json
+/memo.txt
+/composer.lock
+/vendor/
+/data/
+/doc/
