@@ -8,8 +8,8 @@
   },
   "slug": "symfony",
   "composes": [
-    "symfony",
     "postgres",
-    "composer"
+    "composer",
+    "symfony"
   ]
 }

@@ -1,3 +1,0 @@
-{% prestashop:1.7.0 %}
-{% mariadb %}
-{% memcached %}

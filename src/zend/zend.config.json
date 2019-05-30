@@ -1,12 +1,15 @@
 {
   "name": "Zend Framework",
-  "description": "Package for Zend Framework application.",
+  "description": "Web server, database and composer orchestration for Zend Framework application.",
   "author": {
     "name": "Skyflow",
-    "email": "contact@skyflow.io",
     "site": "https:\/\/skyflow.io",
     "github": "https:\/\/github.com\/skyflow-io"
   },
   "slug": "zend",
-  "logo": "zend.png"
+  "composes": [
+    "mariadb",
+    "composer",
+    "zend"
+  ]
 }

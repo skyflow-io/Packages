@@ -1,12 +1,15 @@
 {
   "name": "Laravel",
-  "description": "Package for Laravel application.",
+  "description": "Web server, database and composer orchestration for Laravel application.",
   "author": {
     "name": "Skyflow",
-    "email": "contact@skyflow.io",
     "site": "https:\/\/skyflow.io",
     "github": "https:\/\/github.com\/skyflow-io"
   },
   "slug": "laravel",
-  "logo": "laravel.png"
+  "composes": [
+    "postgres",
+    "composer",
+    "laravel"
+  ]
 }
