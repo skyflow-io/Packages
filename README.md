@@ -15,8 +15,8 @@
 <p align="center">
     <img width="700" src="https://skyflow.io/images/homepage/get-package.svg" alt="Build your environment">
 </p>
-Todo : Some description
-[packages][docs-website-url]. 
+
+[Packages][docs-website-url]
 
 ## Documentation
 
