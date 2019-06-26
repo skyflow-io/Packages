@@ -23,6 +23,7 @@ deploy:
       ssh lewebpedagogique@51.15.187.88 mkdir -p /srv/http/skyflow/data /srv/http/skyflow/doc &&
       rsync -r --delete-after $TRAVIS_BUILD_DIR/doc/packages.json lewebpedagogique@51.15.187.88:/srv/http/skyflow/doc/packages.json &&
       rsync -r --delete-after $TRAVIS_BUILD_DIR/data/packages.json lewebpedagogique@51.15.187.88:/srv/http/skyflow/data/packages.json &&
+      ssh lewebpedagogique@51.15.187.88 docker restart skyflow_master &&
       ssh lewebpedagogique@51.15.187.88 docker restart skyflow_develop
     on:
       branch: master
